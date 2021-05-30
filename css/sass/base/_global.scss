@@ -1,0 +1,17 @@
+html,
+body {
+  letter-spacing: 1px;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background-color: $grey;
+  // font-family: "EB Garamond", serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.container--inner {
+  max-width: 80%;
+  margin: 0 auto;
+}

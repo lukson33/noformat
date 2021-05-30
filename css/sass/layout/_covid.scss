@@ -1,0 +1,19 @@
+.covid-info {
+  background-color: $black;
+  padding: 1rem 0;
+  display: flex;
+  color: $white;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  a {
+    margin: 0 2rem;
+    text-decoration: underline;
+  }
+
+  i {
+    margin-left: 2rem;
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  position: relative;
+
+  &__content {
+    text-align: center;
+
+    h1 {
+      font-size: 90px;
+      color: $red;
+      text-transform: uppercase;
+      line-height: 120%;
+    }
+
+    p {
+      font-size: 30px;
+    }
+  }
+
+  &__dots {
+    clip-path: circle(25% at 50% 50%);
+    transform: scale(2.3);
+    opacity: 0.2;
+    fill: #c4c4c4;
+    position: absolute;
+    right: -10%;
+    top: 20%;
+  }
+}
